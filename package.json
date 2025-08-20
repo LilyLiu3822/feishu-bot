@@ -1,0 +1,14 @@
+{
+  "name": "feishu-product-bot",
+  "version": "1.0.0",
+  "description": "飞书产品机会分析机器人",
+  "main": "api/webhook.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "18.x"
+  }
+}

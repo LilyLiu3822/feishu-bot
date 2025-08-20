@@ -5,10 +5,10 @@
   "main": "api/webhook.js",
   "scripts": {
     "dev": "vercel dev",
-    "build": "echo 'No build step required'"
+    "build": "mkdir -p public && echo '<!DOCTYPE html><html><head><title>飞书产品分析机器人</title></head><body><h1>机器人运行中</h1><p>Webhook地址: /api/webhook</p></body></html>' > public/index.html"
   },
   "dependencies": {},
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
   }
 }

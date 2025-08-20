@@ -14,3 +14,17 @@
 ## 使用方法
 
 在飞书群中发送：
+产品分析 [你与AI的对话内容]
+机器人会自动分析并返回产品机会报告。
+
+## 部署说明
+
+1. 获取DeepSeek API密钥
+2. 创建飞书群机器人获取Webhook地址
+3. 在Vercel中设置环境变量
+4. 一键部署
+
+## 环境变量
+
+- `DEEPSEEK_API_KEY`: DeepSeek AI的API密钥
+- `FEISHU_WEBHOOK`: 飞书群机器人的Webhook地址
